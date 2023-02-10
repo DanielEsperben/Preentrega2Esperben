@@ -55,6 +55,24 @@ p {
     color: black;
 }
 
+/* Scroll */
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+ 
+}
+  
+body::-webkit-scrollbar-track {
+    background: white;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+}
+/* Fin scroll */
+
+
 /* Links navbar (Tipografías y hover) */
 .navbar a {  
     font-size: 16px;
@@ -99,4 +117,8 @@ a.navbar-brand:hover  {
     max-width: 100%;
     width: 100%;
     height: auto;
+}
+
+.card{
+    text-align: center;
 }

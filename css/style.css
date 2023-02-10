@@ -92,3 +92,11 @@ a.navbar-brand:hover  {
     --bs-navbar-padding-x: 90px;
     --bs-navbar-padding-y: 65px;
 }
+
+
+/* Hero image */
+.img-fluid {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
